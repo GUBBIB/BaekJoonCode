@@ -31,11 +31,12 @@ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리�
 
 예제 출력 1
 -99 98
-
+```
 
 ## 📌 제출 코드
 **내가 제출한 틀린 코드**:
 - [GitHub 링크](https://github.com/GUBBIB/BaekJoonCode/blob/main/2470%EB%B2%88/Main.java)
+  
 <!-- 
 ## ❌ 내가 틀렸던 이유
 - 특정 케이스에서 논리적 오류가 발생한 이유
