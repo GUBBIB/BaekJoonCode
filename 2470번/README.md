@@ -20,3 +20,5 @@
 -2 4 -99 -1 98
 <h3>예제 출력 1 </h3>
 -99 98
+
+<iframe src="https://github.com/GUBBIB/BaekJoonCode/blob/main/2470%EB%B2%88/Main.java"></iframe>
