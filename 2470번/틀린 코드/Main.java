@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -25,12 +23,13 @@ public class Main {
 
         k = arr.length-1;
 
-        while (j <= k) {
+        while (j < k) {
             // 절대값을 구하기
             if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) < max && j != k){
                 index_1 = j;
                 index_2 = k;
                 max = (arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k];
+                k--;
             } else if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) > max) {
                 k--;
             } else {
