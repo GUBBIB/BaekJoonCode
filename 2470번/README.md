@@ -35,7 +35,7 @@ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리�
 
 ## 📌 제출 코드
 **내가 제출한 틀린 코드**:
-- [GitHub 링크](https://github.com/GUBBIB/BaekJoonCode/blob/main/2470%EB%B2%88/%ED%8B%80%EB%A6%B0%20%EC%BD%94%EB%93%9C/Main.java)
+- [2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/blob/main/2470%EB%B2%88/%ED%8B%80%EB%A6%B0%20%EC%BD%94%EB%93%9C/Main.java)
   
 <!-- 
 ## ❌ 내가 틀렸던 이유
