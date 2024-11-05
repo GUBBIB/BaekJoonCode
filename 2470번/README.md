@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# [2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
+# ![2470 티어](Tier_Img/Gold-5.svg)[2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
 
 ---
 
