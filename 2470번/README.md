@@ -1,3 +1,4 @@
+<!-- ChatGPT를 사용하여 꾸몄습니다 -->
 # [2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
 
 ---
