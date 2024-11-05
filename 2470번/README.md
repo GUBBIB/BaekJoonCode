@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-5.svg" alt="2470 티어그림" width="20px" height="25px">[2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-5.svg" alt="2470 티어그림" width="30px" height="35px">[2470번 - 두 용액](https://www.acmicpc.net/problem/2470)
 
 ---
 
