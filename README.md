@@ -4,3 +4,5 @@
 
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23/)
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23)
