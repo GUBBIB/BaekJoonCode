@@ -15,5 +15,5 @@
 - 투 포인터
 
 ## 현재 BOJ 티어
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23/)
-[[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23)](https://www.acmicpc.net/user/gcce23)
+![[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23/)](https://www.acmicpc.net/user/gcce23)
+![![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23)
