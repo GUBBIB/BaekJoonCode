@@ -8,7 +8,13 @@
 각각의 문제는 해당 문제를 풀었던 코드와 함께 정리되어 있습니다.  
 문제 번호와 이름을 클릭하면 해당 문제의 풀이와 설명을 볼 수 있습니다.  
 
+## ⚙️ 사용된 알고리즘
 
+이 레퍼지토리에서는 다양한 알고리즘을 사용하여 문제를 풀이합니다.  
+사용한 알고리즘:
+- 투 포인터
+
+## 현재 BOJ 티어
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23/)
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/gcce23)
