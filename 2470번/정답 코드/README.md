@@ -7,8 +7,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main {
-
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -17,7 +15,7 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
         int j = 0, k, index_1 = 0, index_2 = 0;
         long[] arr = new long[n];
-        long max = 1_000_000_001;
+        long max = 2_000_000_001, sum=0;
 
         st = new StringTokenizer(br.readLine());
         for(int i=0; i<n; i++){
@@ -29,15 +27,20 @@ public class Main {
         k = arr.length-1;
 
         while (j < k) {
+            sum = arr[j] + arr[k];
             // 절대값을 구하기
-            if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) < max && j != k){
+            if(Math.abs(sum) < max){
                 index_1 = j;
                 index_2 = k;
-                max = (arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k];
-            } else if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) > max) {
+                max = Math.abs(sum);
+
+            }
+            if (sum > 0) {
                 k--;
-            } else {
+            } else if(sum < 0){
                 j++;
+            } else {
+                break;
             }
         }
 
@@ -87,28 +90,4 @@ public class Main {
 
 ## 💡 문제 해결 전략
 문제를 해결하기 위해 **투 포인터 알고리즘**을 적용했습니다. 이 방식은 두 개의 포인터를 사용하여 배열의 양 끝에서부터 접근하여 효율적으로 조건 값을 찾을 수 있습니다.
-
-## 📊 반례
-```
-6
-1 2 3 4 5 6
-answer: 
-1 2
-내 답:
-1 6
-
-3
--5 -2 -1
-answer: 
--2 -1
-내 답:
--2 -1
-
-4
-999999995 999999996 999999997 1000000000
-answer:
-999999995 999999996
-내 답:
-999999995 999999995
-
-```
+long sum 변수에 arr[j] + arr[k] 의 값을 넣어 sum의 값이 음수인지 양수인지 비교하여 j와 k의 인덱스값을 변화시켰습니다.
