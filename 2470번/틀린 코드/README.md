@@ -1,5 +1,5 @@
 <!-- 꾸미는데 있어 ChatGPT를 사용하였습니다. -->
-
+# 💻자바 코드
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
