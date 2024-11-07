@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-3.svg" alt="티어그림" width="30px" height="35px"> [1644번 - 소수의 연속합](https://www.acmicpc.net/problem/1806)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-3.svg" alt="티어그림" width="30px" height="35px"> [1644번 - 소수의 연속합](https://www.acmicpc.net/problem/1644)
 
 <h2>📝 문제 설명</h2>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; line-height: 1.6;">
