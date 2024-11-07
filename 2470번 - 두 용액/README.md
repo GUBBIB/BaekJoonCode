@@ -43,4 +43,4 @@ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리�
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/2470%EB%B2%88/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)
+- [정답 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/2470%EB%B2%88%20-%20%EB%91%90%20%EC%9A%A9%EC%95%A1/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)
