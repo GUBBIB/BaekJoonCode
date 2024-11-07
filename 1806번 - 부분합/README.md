@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-4.svg" alt="티어그림" width="30px" height="35px"> [1876번 - 부분합](https://www.acmicpc.net/problem/1806)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-4.svg" alt="티어그림" width="30px" height="35px"> [1806번 - 부분합](https://www.acmicpc.net/problem/1806)
 
 <h2>📝 문제 설명</h2>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; line-height: 1.6;">
@@ -29,4 +29,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/1806번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/1806%EB%B2%88/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/1806번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/1806%EB%B2%88%20-%20%EB%B6%80%EB%B6%84%ED%95%A9/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
