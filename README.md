@@ -19,3 +19,5 @@
 Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://www.acmicpc.net/user/gcce23)
 [![Solved.ac 
 Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/profile/gcce23)
+
+[Solved.ac Profile](https://solved.ac/profile/gcce23)
