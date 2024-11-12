@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Gold-4.svg" alt="티어그림" width="30px" height="35px"> [1806번 - 부분합](https://www.acmicpc.net/problem/1806)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-4.svg" alt="티어그림" width="30px" height="35px"> [28278번 - 스택2](https://www.acmicpc.net/problem/28278)
 
 <h2>📝 문제 설명</h2>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; line-height: 1.6;">
