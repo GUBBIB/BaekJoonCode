@@ -52,4 +52,4 @@ yes
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답코드/4949번 - Main.java]()
+- [정답코드/4949번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/4949%EB%B2%88%20-%20%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%20%EC%84%B8%EC%83%81/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
