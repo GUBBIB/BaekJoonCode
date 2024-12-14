@@ -41,3 +41,7 @@
 예제 출력 3
 10
 ```
+
+## ✅ 정답 코드
+**정답 코드**:
+- [정답 코드/18414번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/18414%EB%B2%88%20-%20X%20%E3%81%AB%E6%9C%80%E3%82%82%E8%BF%91%E3%81%84%E5%80%A4%20(The%20Nearest%20Value)/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
