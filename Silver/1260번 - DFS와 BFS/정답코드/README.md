@@ -89,7 +89,8 @@ public class Main {
 # 💭 나의 접근 방식
 
 ## 💡 문제 해결 전략
-양방향 그래프를 만들기 위해 ``ArrayList<ArrayList<Integer>>`` 타입으로 인접 리스트 형태로 구현 했습니다
+양방향 그래프를 만들기 위해 ``ArrayList<ArrayList<Integer>>`` 타입으로 ``인접 리스트`` 형태로 구현 했습니다.
+이후 ``BFS 알고리즘``과 ``DFS 알고리즘``을 사용하여 방문한 노드를 출력했습니다.
 
 ## ⚙️ BFS(Breadth First Seach) 너비 우선 탐색
 
