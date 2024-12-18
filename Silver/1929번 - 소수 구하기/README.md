@@ -32,4 +32,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/1929번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/1929%EB%B2%88%20-%20%EC%86%8C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/1929번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/1929%EB%B2%88%20-%20%EC%86%8C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
