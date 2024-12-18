@@ -57,4 +57,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/28278번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/28278%EB%B2%88%20-%20%EC%8A%A4%ED%83%9D%202/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/28278번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/28278%EB%B2%88%20-%20%EC%8A%A4%ED%83%9D%202/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
