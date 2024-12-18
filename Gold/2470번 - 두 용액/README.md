@@ -35,7 +35,7 @@ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리�
 
 ## 📌 제출 코드
 **내가 제출한 틀린 코드**:
-- [틀린 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/2470%EB%B2%88%20-%20%EB%91%90%20%EC%9A%A9%EC%95%A1/%ED%8B%80%EB%A6%B0%20%EC%BD%94%EB%93%9C)
+- [틀린 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Gold/2470%EB%B2%88%20-%20%EB%91%90%20%EC%9A%A9%EC%95%A1/%ED%8B%80%EB%A6%B0%20%EC%BD%94%EB%93%9C)
 
 ## ❌ 내가 틀렸던 이유
 - sum의 초기값을 10<sup>9</sup> + 10<sup>9</sup>인 2,000,000,000을 초기값으로 주었어야 하는데 잘 못 주었습니다.
@@ -43,4 +43,4 @@ KOI 부설 과학연구소에서는 많은 종류의 산성 용액과 알칼리�
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/2470%EB%B2%88%20-%20%EB%91%90%20%EC%9A%A9%EC%95%A1/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)
+- [정답 코드/2470 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Gold/2470%EB%B2%88%20-%20%EB%91%90%20%EC%9A%A9%EC%95%A1/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)

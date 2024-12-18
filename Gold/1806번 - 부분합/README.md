@@ -29,4 +29,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/1806번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/1806%EB%B2%88%20-%20%EB%B6%80%EB%B6%84%ED%95%A9/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/1806번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Gold/1806%EB%B2%88%20-%20%EB%B6%80%EB%B6%84%ED%95%A9/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)

@@ -35,4 +35,4 @@ U
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/32929번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/32929%EB%B2%88%20-%20UOS%20%EB%AC%B8%EC%9E%90%EC%97%B4/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/32929번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Bronze/32929%EB%B2%88%20-%20UOS%20%EB%AC%B8%EC%9E%90%EC%97%B4/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)

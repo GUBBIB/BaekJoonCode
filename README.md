@@ -17,6 +17,7 @@
 - 에라토스테네스의 체
 - 합병정렬
 - 그래프
+- 트리
 - DFS(Depth First Search) 깊이 우선 탐색
 - BFS(Breadth First Seach) 너비 우선 탐색
 
