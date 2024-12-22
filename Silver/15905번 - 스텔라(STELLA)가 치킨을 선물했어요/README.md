@@ -72,4 +72,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/15905번 - Main.java]()
+- [정답 코드/15905번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/15905%EB%B2%88%20-%20%EC%8A%A4%ED%85%94%EB%9D%BC(STELLA)%EA%B0%80%20%EC%B9%98%ED%82%A8%EC%9D%84%20%EC%84%A0%EB%AC%BC%ED%96%88%EC%96%B4%EC%9A%94/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
