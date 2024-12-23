@@ -55,4 +55,4 @@ ADREAMER
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/17219번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/17219%EB%B2%88%20-%20%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%20%EC%B0%BE%EA%B8%B0)
+- [정답 코드/17219번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/17219%EB%B2%88%20-%20%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%20%EC%B0%BE%EA%B8%B0/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
