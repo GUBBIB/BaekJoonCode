@@ -64,4 +64,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/17294번 - Main.java]()
+- [정답 코드/17294번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Bronze/17294%EB%B2%88%20-%20%EA%B7%80%EC%97%AC%EC%9A%B4%20%EC%88%98/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
