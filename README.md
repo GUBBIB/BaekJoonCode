@@ -22,7 +22,7 @@
 - DFS(Depth First Search) 깊이 우선 탐색
 - BFS(Breadth First Seach) 너비 우선 탐색
 - 동적계획법
-- 피보나치
+- 다이나믹 프로그래밍(Dynamic Programming)
 
 ## 현재 BOJ 티어
 [![Solved.ac 
