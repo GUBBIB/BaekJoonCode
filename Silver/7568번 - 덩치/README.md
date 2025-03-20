@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# ![티어그림](https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-5.svg) [덩치](https://www.acmicpc.net/problem/7568)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-5.svg" alt="티어그림" width="30px" height="35px"> [덩치](https://www.acmicpc.net/problem/7568)
 
 ## 📝 문제 설명
 우리는 사람의 덩치를 키와 몸무게, 이 두 개의 값으로 표현하여 그 등수를 매겨보려고 한다.  
