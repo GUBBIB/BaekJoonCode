@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# !<img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-2.svg" alt="티어그림" width="30px" height="35px"> [좌표 압축](https://www.acmicpc.net/problem/18870)
+# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-2.svg" alt="티어그림" width="30px" height="35px"> [좌표 압축](https://www.acmicpc.net/problem/18870)
 
 ## 📝 문제 설명
 수직선 위에 `N`개의 좌표 `X1, X2, ..., XN`이 있다. 이 좌표에 좌표 압축을 적용하려고 한다.  
