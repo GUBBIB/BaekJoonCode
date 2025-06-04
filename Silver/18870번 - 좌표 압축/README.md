@@ -1,5 +1,5 @@
 <!-- ChatGPT를 사용하여 꾸몄습니다 -->
-# ![티어그림](https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-2.svg) [좌표 압축](https://www.acmicpc.net/problem/18870)
+# !<img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-2.svg" alt="티어그림" width="30px" height="35px"> [좌표 압축](https://www.acmicpc.net/problem/18870)
 
 ## 📝 문제 설명
 수직선 위에 `N`개의 좌표 `X1, X2, ..., XN`이 있다. 이 좌표에 좌표 압축을 적용하려고 한다.  
@@ -36,4 +36,4 @@
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/18870번 - Main.java]()
+- [정답 코드/18870번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/18870%EB%B2%88%20-%20%EC%A2%8C%ED%91%9C%20%EC%95%95%EC%B6%95/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
