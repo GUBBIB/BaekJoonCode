@@ -30,6 +30,13 @@
 13
 ```
 
+## 📌 제출 코드
+**내가 제출한 틀린 코드**:
+- [틀린 코드/1966 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/1966%EB%B2%88%20-%20%ED%94%84%EB%A6%B0%ED%84%B0%20%ED%81%90/%ED%8B%80%EB%A6%B0%EC%BD%94%EB%93%9C)
+
+## ❌ 내가 틀렸던 이유
+- 큐에서 실제로 문서를 꺼내( poll ) 제거하지 않고 빈도만 줄여서, 큐가 줄지 않아 무한 회전이 발생했고 그 결과 메모리 초과가 났습니다.
+
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/1929번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/1929%EB%B2%88%20-%20%EC%86%8C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%A0%95%EB%8B%B5%EC%BD%94%EB%93%9C)
+- [정답 코드/1966 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/)

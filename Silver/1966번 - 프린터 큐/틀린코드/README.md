@@ -4,41 +4,85 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
 
-        st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
-        int m = Integer.parseInt(st.nextToken());
-        boolean[] prime = new boolean[m+1];
+        for(int i=0; i<n; i++){
+            st = new StringTokenizer(br.readLine());
+            int size  = Integer.parseInt(st.nextToken());
+            int x =  Integer.parseInt(st.nextToken());
+            int cnt = 0, chk = 0;
+            Queue<int[]> q = new LinkedList<>();
+            int[] cntP = new int[10];
+            int pointer = 0;
+            boolean boolChk = true;
 
-        prime[0] = prime[1] = true;
 
-        for(int i=2; i<=Math.sqrt(m); i++){
-            if(prime[i]) {
-                continue;
+            st = new StringTokenizer(br.readLine());
+
+            for(int j=0; j<size; j++){
+                int a =  Integer.parseInt(st.nextToken());
+                if(j == x){
+                    chk = a;
+                }
+                pointer = Math.max(pointer, a);
+                cntP[a]++;
+                q.add(new int[]{a, j});
             }
+            if(size == 1){
+                cnt++;
+                sb.append(cnt).append("\n");
+            } else {
+                while(!q.isEmpty() && boolChk) {
+                    int[] num = q.poll();
 
-            for(int j=i*i; j<=prime.length; j=j+i){
-                // j = j + i; 이기 때문에 i를 더할 때 m을 넘어가는 경우가 있음
-                // 3 20 일 때 j = 18 시점이 끝나고 그 다음 값이 21이 기때문에 그 때 IndexBound가 난다
-                if(j > m) continue;
-                prime[j] = true;
+
+                    if(num[0] == chk && num[1] == x && pointer == num[0]){
+                        cnt++;
+                        boolChk = false;
+                        sb.append(cnt).append("\n");
+                        break;
+                    } else if (pointer >= chk) {
+                        if(num[1] != x && pointer == num[0]){
+                            while (pointer > 0 && cntP[pointer] != 0) {
+                                cntP[pointer]--;
+                                cnt++;
+
+                                if(cntP[pointer] > 0){
+                                    num = q.poll();
+
+                                    if(num[1] == x){
+                                        cnt++;
+                                        boolChk = false;
+                                        sb.append(cnt).append("\n");
+                                        break;
+                                    }
+                                }
+                            }
+                            for(int k=pointer-1; k>=0; k--){
+                                if(cntP[k] > 0){
+                                    pointer = k;
+                                    break;
+                                }
+                            }
+                        } else {
+                            q.add(new int[]{num[0], num[1]});
+                        }
+                    }
+                }
             }
-        }
-
-        for(int i=n; i<=m; i++){
-            if(!prime[i]) sb.append(i).append("\n");
         }
 
         System.out.println(sb);
+
+
     }
 }
 ```
@@ -46,8 +90,5 @@ public class Main {
 # 💭 나의 접근 방식
 
 ## 💡 문제 해결 전략
-문제를 해결하기위해 **에라토스테네스의 체 알고리즘**을 사용 하여 소수를 판별한 뒤, `prime[i] = false`인경우 `StringBuilder sb변수`에 넣은 후 마지막에 출력하였습니다.
 
-## ⚙️ 에라토스테네스의 체 알고리즘
-에라토스테네스의 체 알고리즘은 **소수 판별**을 위한 효율적인 방법으로, **배수들**을 차례대로 걸러내는 방식입니다. 먼저, **prime** 배열을 사용하여 각 수의 배수 위치에 `true` 값을 할당하며, 이를 반복하여 소수가 아닌 값들을 걸러냅니다. 결국, prime 배열에서 `true`인 값은 소수이고, `false`인 값은 소수가 아닌 수입니다.
-
+## ❌ 내가 틀렸던 이유
