@@ -41,7 +41,7 @@
 </div>
 
 
-**틀린 코드**:
+## ❌ 틀린 코드
 - [틀린 코드/12865번 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Gold/12865%EB%B2%88%20-%20%ED%8F%89%EB%B2%88%ED%95%9C%20%EB%B0%B0%EB%82%AD/%ED%8B%80%EB%A6%B0%20%EC%BD%94%EB%93%9C)
 
 ## ✅ 정답 코드
