@@ -1,4 +1,4 @@
-# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-3.svg" alt="티어그림" width="30px" height="35px"> [3273번 - 두 수의 합](https://www.acmicpc.net/problem/3273)
+~~# <img src="https://github.com/GUBBIB/BaekJoonCode/blob/main/Tier_Img/Silver-3.svg" alt="티어그림" width="30px" height="35px"> [3273번 - 두 수의 합](https://www.acmicpc.net/problem/3273)
 
 <h2>📝 문제 설명</h2>
 <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; line-height: 1.6;">
@@ -31,4 +31,4 @@ n개의 서로 다른 양의 정수 a1, a2, ..., an으로 이루어진 수열이
 
 ## ✅ 정답 코드
 **정답 코드**:
-- [정답 코드/3273 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/3273%EB%B2%88%20-%20%EB%91%90%20%EC%88%98%EC%9D%98%20%ED%95%A9/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)
+- [정답 코드/3273 - Main.java](https://github.com/GUBBIB/BaekJoonCode/tree/main/Silver/3273%EB%B2%88%20-%20%EB%91%90%20%EC%88%98%EC%9D%98%20%ED%95%A9/%EC%A0%95%EB%8B%B5%20%EC%BD%94%EB%93%9C)~~

@@ -44,15 +44,6 @@ public class Main {
 
         visited = new boolean[n+1];
         BFS(node, v, visited);
-
-
-//        // 체크
-//        System.out.println();
-//        for(ArrayList<Integer> data : node){
-//            System.out.print(index++ + " : ");
-//            System.out.println(data);
-//        }
-
     }
 
     public static void DFS(ArrayList<ArrayList<Integer>> node, int start, boolean[] visited){

@@ -22,13 +22,13 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
-            st = new StringTokenizer(br.readLine());
-            start = st.nextToken().charAt(0) - 'A';
+            st = new stringtokenizer(br.readline());
+            start = st.nexttoken().charat(0) - 'a';
 
             for(int j=0; j<2; j++){
-                String tmp = st.nextToken();
-                leftRight[j] = (checkEmpty(tmp))? tmp.charAt(0) - 'A' : -1;
-                node.get(start).add(leftRight[j]);
+                string tmp = st.nexttoken();
+                leftright[j] = (checkempty(tmp))? tmp.charat(0) - 'a' : -1;
+                node.get(start).add(leftright[j]);
             }
         }
 
