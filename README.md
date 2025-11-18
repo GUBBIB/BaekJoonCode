@@ -3,7 +3,6 @@
 이 곳에는 제가 <strong>JAVA</strong>를 사용하여 ``해결한 문제``, 혹은 ``해결 하지 못한 문제``들을 정리하여 올려두었습니다.  
 코드의 내용, 풀이 과정, 알고리즘을 정리하여 다른 사람들과 함께 공유할 수 있는 공간입니다.  
 
-
 ## 📝 문제 풀이
 각각의 문제는 해당 문제를 풀었던 코드와 함께 정리되어 있습니다.  
 문제 번호와 이름을 클릭하면 해당 문제의 풀이와 설명을 볼 수 있습니다.  
@@ -29,3 +28,7 @@
 Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://www.acmicpc.net/user/gcce23)
 [![Solved.ac 
 Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solved.ac/profile/gcce23)
+
+
+## 해결해야 할 문제
+- [12865번 - 평범한 배낭](https://github.com/GUBBIB/BaekJoonCode/tree/main/Gold/12865%EB%B2%88%20-%20%ED%8F%89%EB%B2%88%ED%95%9C%20%EB%B0%B0%EB%82%AD)
