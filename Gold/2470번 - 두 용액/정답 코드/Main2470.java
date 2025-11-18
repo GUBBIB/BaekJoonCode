@@ -1,55 +1,57 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class Main {
-
-
+public class Main2470 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
 
-        int n = Integer.parseInt(br.readLine()), x = 0;
-        int[] arr = new int[n];
-        int j = 0, k = 0, cnt = 0;
+        int n = Integer.parseInt(br.readLine());
+        int j = 0, k, index_1 = 0, index_2 = 0;
+        long[] arr = new long[n];
+        long max = 2_000_000_001, sum=0;
 
         st = new StringTokenizer(br.readLine());
         for(int i=0; i<n; i++){
-            arr[i] = Integer.parseInt(st.nextToken());
+            arr[i] = Long.parseLong(st.nextToken());
         }
-        x = Integer.parseInt(br.readLine());
-
         // 정렬
         mergeSort(arr, 0, arr.length-1);
 
         k = arr.length-1;
-        while (j <= k) {
-            if(arr[j] + arr[k] == x && j != k){
-                cnt++;
-                j++; k--;
-            } else if(arr[j] + arr[k] > x){
+
+        while (j < k) {
+            sum = arr[j] + arr[k];
+            // 절대값을 구하기
+            if(Math.abs(sum) < max){
+                index_1 = j;
+                index_2 = k;
+                max = Math.abs(sum);
+
+            }
+            if (sum > 0) {
                 k--;
-            } else {
+            } else if(sum < 0){
                 j++;
+            } else {
+                break;
             }
         }
 
-        System.out.println(cnt);
-
+        System.out.printf("%d %d", arr[index_1], arr[index_2]);
     }
 
-    public static void merge(int[] arr, int s1, int e1, int s2, int e2) {
+    public static void merge(long[] arr, int s1, int e1, int s2, int e2) {
         int i = s1, j = s2, k = 0;
-        int[] tmp = new int[e2 - s1 + 1];
+        long[] tmp = new long[e2 - s1 + 1];
 
         while (i <= e1 && j <= e2) {
-            if (arr[i] > arr[j]) {
+            if (arr[i] >= arr[j]) {
                 tmp[k++] = arr[j++];
-            } else if (arr[i] < arr[j]) {
+            } else if (arr[i] <= arr[j]) {
                 tmp[k++] = arr[i++];
             }
         }
@@ -65,7 +67,7 @@ public class Main {
         }
 
     }
-    public static void mergeSort(int[] arr, int s, int e){
+    public static void mergeSort(long[] arr, int s, int e){
         if(s >= e) return;
         int m = s + (e - s) / 2;
         mergeSort(arr, s, m);

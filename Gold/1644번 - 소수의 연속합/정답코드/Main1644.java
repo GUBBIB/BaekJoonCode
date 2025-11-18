@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main1644 {
     public static boolean[] prime;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,17 +16,17 @@ public class Main {
         int j = 0, k = 1, cnt = 0, idx = 0;
         long sum = 0;
 
-        sumArr[0] = 0;        
+        sumArr[0] = 0;
         idx = primeChk(n, primeArr);
         primeArr = Arrays.copyOf(primeArr, idx);
         sumArr = Arrays.copyOf(sumArr, idx+1);
-        
+
         // 누적합
         for(int i=1; i<=primeArr.length; i++){
             sumArr[i] = primeArr[i-1] + sumArr[i-1];
         }
 
-        while(j <= k){
+        while(k < sumArr.length){
             sum = sumArr[k] - sumArr[j];
             if(sum > n){
                 j++;
@@ -39,6 +39,7 @@ public class Main {
                     break;
                 }
             }
+
         }
         System.out.println(cnt);
     }
@@ -52,11 +53,13 @@ public class Main {
             return 0;
         }
 
-        for(int i=2; i<Math.sqrt(size); i++){
+        // √400만 = 2000이므로 제곱의 값을 j로 줘도 범위 오류는 아니다
+        for(int i=2; i<=Math.sqrt(size); i++){
             if(prime[i]) continue;
 
 
             for(int j=i*i; j<=prime.length; j=j+i){
+                if(j > size) continue;
                 prime[j] = true;
             }
         }

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class Main1991 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -22,13 +22,13 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
-            st = new stringtokenizer(br.readline());
-            start = st.nexttoken().charat(0) - 'a';
+            st = new StringTokenizer(br.readLine());
+            start = st.nextToken().charAt(0) - 'a';
 
             for(int j=0; j<2; j++){
-                string tmp = st.nexttoken();
-                leftright[j] = (checkempty(tmp))? tmp.charat(0) - 'a' : -1;
-                node.get(start).add(leftright[j]);
+                String tmp = st.nextToken();
+                leftRight[j] = (checkEmpty(tmp))? tmp.charAt(0) - 'a' : -1;
+                node.get(start).add(leftRight[j]);
             }
         }
 

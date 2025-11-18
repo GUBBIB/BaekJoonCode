@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class Main18414 {
 
     public static ArrayList<ArrayList<Integer>> node = new ArrayList<>();
     public static boolean[] visited;

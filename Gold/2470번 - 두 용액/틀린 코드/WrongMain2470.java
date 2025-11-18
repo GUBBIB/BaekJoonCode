@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class WrongMain2470 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -12,7 +12,7 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
         int j = 0, k, index_1 = 0, index_2 = 0;
         long[] arr = new long[n];
-        long max = 2_000_000_001, sum=0;
+        long max = 1_000_000_001;
 
         st = new StringTokenizer(br.readLine());
         for(int i=0; i<n; i++){
@@ -24,20 +24,16 @@ public class Main {
         k = arr.length-1;
 
         while (j < k) {
-            sum = arr[j] + arr[k];
             // 절대값을 구하기
-            if(Math.abs(sum) < max){
+            if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) < max && j != k){
                 index_1 = j;
                 index_2 = k;
-                max = Math.abs(sum);
-
-            }
-            if (sum > 0) {
+                max = (arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k];
                 k--;
-            } else if(sum < 0){
-                j++;
+            } else if(((arr[j] + arr[k] < 0)? (arr[j] + arr[k]) * -1 : arr[j] + arr[k]) > max) {
+                k--;
             } else {
-                break;
+                j++;
             }
         }
 
