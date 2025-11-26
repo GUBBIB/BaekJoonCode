@@ -31,3 +31,4 @@ Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gcce23)](https://solv
 
 
 ## 해결해야 할 문제
+- [1966번](https://www.acmicpc.net/problem/1966) 
