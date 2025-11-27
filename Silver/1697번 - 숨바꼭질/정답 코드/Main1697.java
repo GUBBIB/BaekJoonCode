@@ -1,6 +1,3 @@
-<!-- 꾸미는데 있어 ChatGPT를 사용하였습니다. -->
-# 💻 자바 코드
-```java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main1697 {
     public static void main(String[] args) throws IOException {
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
@@ -26,12 +23,12 @@ public class Main {
         visited[N] = true;
         dist[N] = 0;
 
-        while (!q.isEmpty()) {
+        while(!q.isEmpty()){
             int cur = q.poll();
 
-            for (int next : new int[]{cur - 1, cur + 1, cur * 2}) {
-                if (next < 0 || next > 100000) continue;
-                if (visited[next]) continue;
+            for(int next : new int[]{cur-1, cur+1, cur*2}){
+                if(next < 0 || next > 100000) continue;
+                if(visited[next]) continue;
 
                 visited[next] = true;
                 dist[next] = dist[cur] + 1;
@@ -44,9 +41,3 @@ public class Main {
         System.out.println(sb);
     }
 }
-```
-
-# 💭 나의 접근 방식
-
-## 💡 문제 해결 전략
-**BFS** 알고리즘을 사용해서 문제를 해결했습니다 
